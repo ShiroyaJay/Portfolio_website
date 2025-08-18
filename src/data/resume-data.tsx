@@ -94,12 +94,12 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "TypeScript",
+    
     "JavaScript",
     "Python",
-    "React/Next.js/ReactNative",
-    "Vue.js/Nuxt.js",
-    "Shadcn/Tailwind/SCSS",
+    "React/Next.js",
+    "SQL",
+    "Tailwind/SCSS",
     "Node.js",
     "GraphQL",
   ],
@@ -149,4 +149,33 @@ export const RESUME_DATA = {
       // logo: JarockiMeLogo,
     },
   ],
+  certifications: [
+    {
+    title: "GATE Computer Science - Secured 95 percentile out of 123k+ students in india",
+    issuer: "IISc Bangalore",
+    date: "2024",
+    link: "https://drive.google.com/file/d/10eb8Xg_mxTEttc1wo1HhGAomn5ejpE35/view?usp=drive_link"
+  },
+  {
+    title: "The Data Science Course 2023",
+    issuer: "365 CAREERS - Udemy",
+    date: "2023",
+    link: "http://ude.my/UC-3787be33-9734-4c79-b039-7edb9ffb8e50",
+  },
+  {
+    title: "30 Days of Google Cloud Program",
+    issuer: "Google Cloud",
+    date: "2021",
+    link: "https://drive.google.com/file/d/132oswiREO79n5jTH2JXOY6VQA4yjJVQ0/view?usp=sharing",
+  },
+  
+  
+  {
+    title: "JEE Mains - ALL INDIA 92.4 percentile out of 1 Million+ students",
+    issuer: "NTA",
+    date: "2020",
+    link: "https://drive.google.com/file/d/12cgOLnCcwhiMulijraNkD_YUgXe4lZMc/view?usp=sharing"
+  }
+],
+
 } as const;

@@ -184,6 +184,46 @@ export default function Page() {
             })}
           </div>
         </Section>
+
+        <Section className="print-force-new-page scroll-mb-16">
+  <h2 className="text-xl font-bold">Certifications & Achievements</h2>
+  <ul className="list-disc list-inside space-y-2 text-sm text-pretty font-mono text-muted-foreground">
+    {RESUME_DATA.certifications.map(
+      (
+        { title, issuer, date, link }: {
+          title: string;
+          issuer: string;
+          date?: string;
+          link?: string;
+        }, 
+        idx: number
+      ) => (
+       <li key={idx}>
+  {link ? (
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:underline"
+      
+    >
+      {title} — {issuer} {date && `(${date})`}
+    </a>
+  ) : (
+    <span className="text-foreground">
+      {title} — {issuer} {date && `(${date})`}
+    </span>
+  )}
+</li>
+
+
+
+
+      )
+    )}
+  </ul>
+</Section>
+
       </section>
 
       <CommandMenu
