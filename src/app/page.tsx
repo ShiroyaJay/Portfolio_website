@@ -187,7 +187,7 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
   <h2 className="text-xl font-bold">Certifications & Achievements</h2>
-  <ul className="list-disc list-inside space-y-2 text-sm text-pretty font-mono text-muted-foreground">
+  <ul className="list-disc list-inside space-y-2 text-sm text-pretty font-light">
     {RESUME_DATA.certifications.map(
       (
         { title, issuer, date, link }: {
@@ -204,7 +204,7 @@ export default function Page() {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="hover:underline"
+      //className="hover:underline"
       
     >
       {title} — {issuer} {date && `(${date})`}
