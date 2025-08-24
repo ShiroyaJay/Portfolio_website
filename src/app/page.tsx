@@ -129,10 +129,21 @@ export default function Page() {
 
                   <h4 className="font-mono text-sm leading-none">
                     {work.title}
+                    {work.certificate && (
+    <a
+      href={work.certificate}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 hover:text-blue-800 text-[10px] ml-1"
+    >
+       📝
+    </a>
+  )}
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-sm">
                   {work.description}
+                  
                 </CardContent>
               </Card>
             );
@@ -187,7 +198,8 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
   <h2 className="text-xl font-bold">Certifications & Achievements</h2>
-  <ul className="list-disc list-inside space-y-2 text-sm text-pretty font-light">
+  
+  <ul className="list-disc list-inside space-y-2 text-sm text-pretty font-mono text-muted-foreground">
     {RESUME_DATA.certifications.map(
       (
         { title, issuer, date, link }: {

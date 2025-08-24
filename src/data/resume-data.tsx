@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   summary:
     "Passionate about transforming data into actionable insights using machine learning and AI techniques. Worked as a data science intern and currently contributing to the sports department at TH Deggendorf. Proficient in Python, SQL, and data visualization tools.",
   avatarUrl: "https://avatars.githubusercontent.com/u/121104652?s=400&u=6359b2cdaef46825bac0ae31f2edfa17601604f4&v=4",
-  personalWebsiteUrl: "https://amalmohank.netlify.app/",
+  personalWebsiteUrl: "https://jayshiroya-portfolio.vercel.app/",
   contact: {
     email: "jayshiroya2813@gmail.com",
     tel: "+49 15754954344",
@@ -60,7 +60,8 @@ export const RESUME_DATA = {
       end: "Aug 2025",
       description:
         "Managed 30+ participants independently by handling planning, logistics, communication, attendance, performance feedback, and compliance using the iLearn platform.",
-    },
+      certificate: "/certificates/hochsport-badminton.pdf"
+      },
     {
       company: "Petpooja",
       link: "https://www.petpooja.com/",
@@ -69,8 +70,9 @@ export const RESUME_DATA = {
       // logo: ParabolLogo,
       start: "Oct 2024",
       end: "Mar 2025",
-      description: "Analyzed food-related datasets and optimized large language model prompts to improve Indian cuisine recognition accuracy by 5%. Helped improve the digital invoice data process to make model training faster and more efficient. Worked on a Power BI dashboard to create visualizations."
-},
+      description: "Analyzed food-related datasets and optimized large language model prompts to improve Indian cuisine recognition accuracy by 5%. Helped improve the digital invoice data process to make model training faster and more efficient. Worked on a Power BI dashboard to create visualizations.",
+      certificate: "https://drive.google.com/file/d/1d-LEkl-3O1c-0IvaxbCT0RHYw0sYTKxP/view?usp=sharing"
+    },
     {
       company: "Chegg Ind",
       link: "https://www.cheggindia.com/",
@@ -80,7 +82,8 @@ export const RESUME_DATA = {
       start: "Mar 2024",
       end: "Jun 2024",
       description: "Answered 40+ technical questions weekly on algorithms, data science, and programming topics with 80%+ consistency factor (CF). Developed concise and conceptually clear content to assist learners worldwide and enhance their learning efficiency."
-},
+      ,certificate: "https://drive.google.com/file/d/1WuGHM30d5ZtfsDVEY0iDnXUiHabPhJpx/view?usp=sharing"
+    },
     {
       company: "Kintu Designs",
       link: "https://kintudesigns.com/",
@@ -91,41 +94,43 @@ export const RESUME_DATA = {
       end: "sept 2024",
       description:
         "Built a simple AI chatbot for Indian law using basic LSTM models and legal data. Gathered and cleaned data from websites to create training datasets. Helped connect backend services using Django and created APIs for chatbot use. Worked with a team on AI projects focused on product development and digital twins.",
-    },
+      certificate: "/certificates/hochsport-badminton.pdf"
+      },
   ],
-  skills: [
-    
-    "JavaScript",
-    "Python",
-    "React/Next.js",
-    "SQL",
-    "Tailwind/SCSS",
-    "Node.js",
-    "GraphQL",
-  ],
+skills: [
+  "Java", "Python", "JavaScript", "SQL",
+  "LLMs", "GenAI", "LangGraph",
+  "React", "Next.js", "FastAPI",
+  "MySQL", "AWS",
+  "Git", "GitHub Actions", "Docker",
+  "Pandas", "NumPy", "Seaborn", "Matplotlib", "Jupyter Notebook", "Power BI",
+  "Mathematics", "Statistical Analysis", "Analytical Thinking"
+]
+
+,
   projects: [
     {
-      title: "Hirely App",
+      title: "Website Builder: AI",
       year: "2025",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Shadcn", 'Firebase','Gemini','VAPI'],
+      techStack: ["Side Project", "JavaScript", "Next.js", "Tailwind CSS", 'Convex','Gemini'],
       description:
-        "An AI-powered platform for preparing Interview using mock interviews using realtime voice chat & get instant feedback.",
+        "Developed an AI-powered website builder to generate content, code, and designs dynamically.",
       // logo: ConsultlyLogo,
       link: {
-        label: "Hirely App",
-        href: "https://hirely-lovat.vercel.app",
+        label: "Website Builder",
+        href: "https://github.com/ShiroyaJay/Website_Builder",
       },
     },
     {
-      title: "JobRadar App",
-      year: "2023",
-      techStack: ["Side Project", "JavaScript", "RectNative", "RapidAPI"],
+      title: "Crop Predictor",
+      year: "2024",
+      techStack: ["Side Project", "Python","JavaScript"],
       description:
-        "A job listings app empowering users to efficiently search, explore, and apply for opportunities across various platforms.",
+        "Developed a Crop Recommendation System using machine learning to predict suitable crops based on soil and climatic conditions.",
       // logo: ConsultlyLogo,
       link: {
         label: "Github Repo",
-        href: "https://github.com/amalmohan542/JobRadarApp",
+        href: "https://github.com/ShiroyaJay/OPTIMAL_CROP_PREDICTOR",
       },
     },
     {
@@ -137,16 +142,20 @@ export const RESUME_DATA = {
       // logo: MonitoLogo,
       link: {
         label: "Netflix Clone",
-        href: "https://clone-app-1999.netlify.app/",
+        href: "",
       },
     },
     {
-      title: "Price Optimization for Sellers",
-      year: "2021",
-      techStack: ["Internship Project", "Vue.js", "FastApi", "PostgreSQL"],
+      title: "House Price Predictor",
+      year: "2022",
+      techStack: ["Project", "Python", "Jupyter Notebook", "ML"],
       description:
-        "A Web Application utilizing Meta’s Prophet forecasting algorithm to suggest optimal prices for products to maximize revenue. ",
+        "Built a House Price Predictor using machine learning to estimate property prices based on features like location, size, and amenities. Implemented regression models and data preprocessing to achieve accurate predictions.",
       // logo: JarockiMeLogo,
+      link: {
+        label: "House Price Predictor",
+        href: "https://github.com/ShiroyaJay/HosuePricePrediction",
+      },
     },
   ],
   certifications: [
