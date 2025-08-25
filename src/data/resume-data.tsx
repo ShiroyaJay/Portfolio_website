@@ -134,15 +134,15 @@ skills: [
       },
     },
     {
-      title: "Netflix Clone",
-      year: "2022",
-      techStack: ["Side Project", "JavaScript", "React.js", "themoviedb API"],
+      title: "IPL Data Analysis",
+      year: "2024",
+      techStack: ["Side Project", "Power BI", "Data Analysis"],
       description:
-        "Developed a Netflix clone using React.js and CSS, mimicking the popular streaming platform’s user interface.",
+        "This project explores IPL (Indian Premier League) match data to uncover key trends and insights using Power BI.",
       // logo: MonitoLogo,
       link: {
-        label: "Netflix Clone",
-        href: "",
+        label: "IPL Dashboard",
+        href: "https://github.com/ShiroyaJay/IPL_Dashboard",
       },
     },
     {
@@ -150,7 +150,7 @@ skills: [
       year: "2022",
       techStack: ["Project", "Python", "Jupyter Notebook", "ML"],
       description:
-        "Built a House Price Predictor using machine learning to estimate property prices based on features like location, size, and amenities. Implemented regression models and data preprocessing to achieve accurate predictions.",
+        "Built a House Price Predictor using machine learning to estimate property prices based on features like location, size, and amenities.",
       // logo: JarockiMeLogo,
       link: {
         label: "House Price Predictor",
