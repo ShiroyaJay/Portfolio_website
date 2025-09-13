@@ -60,7 +60,7 @@ export const RESUME_DATA = {
       end: "Aug 2025",
       description:
         "Managed 30+ participants independently by handling planning, logistics, communication, attendance, performance feedback, and compliance using the iLearn platform.",
-      certificate: "/certificates/hochsport-badminton.pdf"
+      certificate: "https://drive.google.com/file/d/1701kt87SjQ2ibbGmgoiFsvxGi_NYUa9a/view?usp=sharing"
       },
     {
       company: "Petpooja",
