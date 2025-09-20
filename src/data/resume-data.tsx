@@ -1,5 +1,6 @@
 // Project: resume-builder
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { Certificate } from "crypto";
 
 export const RESUME_DATA = {
   name: "JAY SHIROYA",
@@ -9,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Pursuing Master’s in Data Science while learning and understanding the world of Artificial Intelligence.",
   summary:
-    "Passionate about transforming data into actionable insights using machine learning and AI techniques. Worked as a data science intern and currently contributing to the sports department at TH Deggendorf. Proficient in Python, SQL, and data visualization tools.",
+    "Passionate about transforming data into actionable insights using machine learning and AI techniques. Worked as a data science intern and served as the Badminton Lead in the Sports Department at TH Deggendorf. Proficient in Python, SQL, and data visualization tools. Enthusiastic about mathematics, with a particular interest in probability and statistics, and their applications in solving real-world problems.",
   avatarUrl: "https://avatars.githubusercontent.com/u/121104652?s=400&u=6359b2cdaef46825bac0ae31f2edfa17601604f4&v=4",
   personalWebsiteUrl: "https://jayshiroya-portfolio.vercel.app/",
   contact: {
@@ -35,18 +36,21 @@ export const RESUME_DATA = {
       degree: "M.Sc. Data Science",
       start: "Oct 2025",
       end: "Present",
+      certificate: "https://drive.google.com/file/d/1MActEI2KdMzOzSasa4D5OjNLTuQ4KSZY/view?usp=sharing"
     },
     {
       school: "Technischen Hochschule Deggendorf, Germany",
       degree: "M.Sc. AI and Data Science",
       start: "Mar 2025",
-      end: "Oct 2025",
+      end: "Sept 2025",
+      certificate: undefined
     },
     {
       school: "Government Engineering College Gandhinagar, India",
       degree: "B.E. Computer Engineering",
       start: "2020",
       end: "  2024",
+      certificate: undefined
     },
   ],
   work: [
@@ -57,7 +61,7 @@ export const RESUME_DATA = {
       title: "Lead - Badminton",
       // logo: ParabolLogo,
       start: "Apr 2025",
-      end: "Aug 2025",
+      end: "Sept 2025",
       description:
         "Managed 30+ participants independently by handling planning, logistics, communication, attendance, performance feedback, and compliance using the iLearn platform.",
       certificate: "https://drive.google.com/file/d/1701kt87SjQ2ibbGmgoiFsvxGi_NYUa9a/view?usp=sharing"

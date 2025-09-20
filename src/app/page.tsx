@@ -164,7 +164,18 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2">{education.degree}
+                  {education.certificate && (
+            <a
+              href={education.certificate}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 text-[10px] ml-1"
+            >
+              📝
+            </a>
+          )}
+                </CardContent>
               </Card>
             );
           })}
