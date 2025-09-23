@@ -15,7 +15,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://jayshiroya-portfolio.vercel.app/",
   contact: {
     email: "jayshiroya2813@gmail.com",
-    tel: "+49 15754954344",
+    tel: "+49 15565352040",
     social: [
       {
         name: "GitHub",
