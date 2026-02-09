@@ -39,13 +39,6 @@ export const RESUME_DATA = {
       certificate: "https://drive.google.com/file/d/1MActEI2KdMzOzSasa4D5OjNLTuQ4KSZY/view?usp=sharing"
     },
     {
-      school: "Technischen Hochschule Deggendorf, Germany",
-      degree: "M.Sc. AI and Data Science",
-      start: "Mar 2025",
-      end: "Sept 2025",
-      certificate: undefined
-    },
-    {
       school: "Government Engineering College Gandhinagar, India",
       degree: "B.E. Computer Engineering",
       start: "2020",
@@ -55,17 +48,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "TH Deggendorf - Hochschulsport",
-      link: "https://www.th-deg.de/",
+      company: "Impossible Founders",
+      link: "https://sprint.impossible-founders.com/",
       badges: [],
-      title: "Lead - Badminton",
+      title: "Future Founder Programme",
       // logo: ParabolLogo,
-      start: "Apr 2025",
-      end: "Sept 2025",
-      description:
-        "Managed 30+ participants independently by handling planning, logistics, communication, attendance, performance feedback, and compliance using the iLearn platform.",
-      certificate: "https://drive.google.com/file/d/1701kt87SjQ2ibbGmgoiFsvxGi_NYUa9a/view?usp=sharing"
-      },
+      start: "Oct 2025",
+      end: "Jan 2026",
+      description: "Top 4 of the Cohort: Selected as one of the top teams out of 9 ventures during the intensive 3-month program for building a viable startup concept. Developed a startup concept with a cross-functional team, progressing from ideation and validation to business modeling, prototyping, and investor pitching. Applied business modeling, teamwork, and problem-solving to build early-stage ventures.",
+      certificate: "https://www.hamburg-startups.net/exaere-gewinnt-beim-dritten-future-founder-demo-day/"
+    },
     {
       company: "Petpooja",
       link: "https://www.petpooja.com/",
@@ -73,9 +65,9 @@ export const RESUME_DATA = {
       title: "Data Science Intern",
       // logo: ParabolLogo,
       start: "Oct 2024",
-      end: "Mar 2025",
-      description: "Analyzed food-related datasets and optimized large language model prompts to improve Indian cuisine recognition accuracy by 5%. Helped improve the digital invoice data process to make model training faster and more efficient. Worked on a Power BI dashboard to create visualizations.",
-      certificate: "https://drive.google.com/file/d/1d-LEkl-3O1c-0IvaxbCT0RHYw0sYTKxP/view?usp=sharing"
+      end: "Sep 2025",
+      description: "Worked on a RAG-based analytics chatbot that enables restaurant owners to query sales and menu data in natural language, contributing to data preparation, retrieval pipeline setup, and testing. Contributed on a GAN-based food image generation system for restaurant menus, contributing to dataset organization of lab-captured images, text-image pairing, and model output evaluation. Designed Power BI dashboards to track team productivity including task assignments, progress, and completion rates.",
+      certificate: "https://drive.google.com/file/d/1Vaxoo3ck_qvrojZHouAIRgEN4QTx5QOo/view?usp=drive_link"
     },
     {
       company: "Chegg Ind",
@@ -114,15 +106,15 @@ skills: [
 ,
   projects: [
     {
-      title: "Website Builder: AI",
+      title: "NEXUS – ECIU Challange",
       year: "2025",
-      techStack: ["Side Project", "JavaScript", "Next.js", "Tailwind CSS", 'Convex','Gemini'],
+      techStack: ["Side Project", "Python", "Next.js", "Ollama", 'Socket.io','LLM'],
       description:
-        "Developed an AI-powered website builder to generate content, code, and designs dynamically.",
+        "Developed an real-time AI guidance during live interactions",
       // logo: ConsultlyLogo,
       link: {
-        label: "Website Builder",
-        href: "https://github.com/ShiroyaJay/Website_Builder",
+        label: "NEXUS",
+        href: "7",
       },
     },
     {
@@ -163,6 +155,12 @@ skills: [
     },
   ],
   certifications: [
+     {
+    title: "Deutschlandstipendium (2026) – Academic Excellence & Social Responsibility",
+    issuer: "TUHH",
+    date: "2026",
+    link: "https://drive.google.com/file/d/10eb8Xg_mxTEttc1wo1HhGAomn5ejpE35/view?usp=drive_link"
+  },
     {
     title: "GATE Computer Science - Secured 95 percentile out of 123k+ students in india",
     issuer: "IISc Bangalore",
