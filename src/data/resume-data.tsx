@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Pursuing Master’s in Data Science while learning and understanding the world of Artificial Intelligence.",
   summary:
-    "Passionate about transforming data into actionable insights using machine learning and AI techniques. Worked as a data science intern and served as the Badminton Lead in the Sports Department at TH Deggendorf. Proficient in Python, SQL, and data visualization tools. Enthusiastic about mathematics, with a particular interest in probability and statistics, and their applications in solving real-world problems.",
+    "Passionate about transforming data into actionable insights using machine learning and AI techniques. Worked as a data science intern at Petpooja. Proficient in Python, SQL, and data visualization tools. Enthusiastic about mathematics, with a particular interest in probability and statistics, and their applications in solving real-world problems.",
   avatarUrl: "https://avatars.githubusercontent.com/u/121104652?s=400&u=6359b2cdaef46825bac0ae31f2edfa17601604f4&v=4",
   personalWebsiteUrl: "https://jayshiroya-portfolio.vercel.app/",
   contact: {
